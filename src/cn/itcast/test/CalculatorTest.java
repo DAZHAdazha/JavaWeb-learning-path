@@ -3,8 +3,28 @@ package cn.itcast.test;
 import cn.itcast.junit.Calculator;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Before;
+import org.junit.After;
 
 public class CalculatorTest {
+
+    /**
+     * initial method
+     * to require resource, all test methods should be executed after this initial process
+     */
+    @Before
+    public void init(){
+        System.out.println("init...");
+    }
+
+    /**
+     * free resource
+     * all test methods will run this method after their execution
+     */
+    @After
+    public void close(){
+        System.out.println("end..");
+    }
 
     /**
      * Test for addition method
