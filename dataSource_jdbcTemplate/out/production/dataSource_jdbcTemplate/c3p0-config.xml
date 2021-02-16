@@ -8,6 +8,7 @@
     <property name="maxPoolSize">30</property>
     <property name="checkoutTimeout">3000</property>
   </default-config>
+<!--  可以使用多个connection 配置-->
   <named-config name="mySource">
     <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
     <property name="jdbcUrl">jdbc:mysql://localhost:3306/todo?serverTimezone=UTC</property>
