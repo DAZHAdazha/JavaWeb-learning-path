@@ -16,14 +16,13 @@ import java.io.IOException;
     // 任意匹配,这种全部匹配的优先级很低，只有其他都无法匹配才会最后匹配这个
 //@WebServlet("*")
 //@WebServlet("/user/*")
-    //注意这里前面不要加"/","com"表示后缀
-@WebServlet("*.com")
-
-
+    //注意这里前面不要加"/","do"表示后缀
+@WebServlet("*.do")
 public class ServletDemo5 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("domo5...");
+        System.out.println(req);
     }
 
 }
