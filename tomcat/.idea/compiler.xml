@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="login-example" />
         <module name="tomcat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="login-example" target="1.8" />
       <module name="tomcat" target="1.8" />
     </bytecodeTargetLevel>
   </component>
