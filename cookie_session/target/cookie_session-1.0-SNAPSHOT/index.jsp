@@ -9,5 +9,19 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+
+<%
+    System.out.println("hello,jsp！！！");
+    int i = 225;
+    String contextPath = request.getContextPath();
+    out.print(contextPath + "ssss");
+%>
+
+<%!
+    int i = 3;
+%>
+
+<%= i %>
+
 </body>
 </html>
