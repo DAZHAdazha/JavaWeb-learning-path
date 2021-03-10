@@ -12,7 +12,7 @@ public class sessionDemo4 extends HttpServlet {
         //获取session
         HttpSession session = request.getSession();
         System.out.println(session);
-        
+
     }
 
     @Override
