@@ -10,5 +10,6 @@
 <!--    <filter-mapping>-->
 <!--        <filter-name>demo1</filter-name>-->
 <!--        <url-pattern>/*</url-pattern>-->
+<!--        <dispatcher>FORWARD</dispatcher>-->
 <!--    </filter-mapping>-->
 </web-app>
