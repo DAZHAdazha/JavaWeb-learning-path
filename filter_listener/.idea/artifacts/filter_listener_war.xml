@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="filter_listener:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>filter_listener</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="filter_listener-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="filter_listener:war exploded" />
+    </root>
+  </artifact>
+</component>
