@@ -70,7 +70,7 @@ public class SensitiveWordsFilter implements Filter {
                 }
 
                 //判断方法名是否是 getParameterMap
-                
+
                 //判断方法名是否是 getParameterValue
 
                 return method.invoke(request,args);
